@@ -1,0 +1,6 @@
+<div>
+    <label>{{title}}</label>
+    <span>{{description}}</span>
+    <input (change)="handleChange($event)">
+    <div *ngIf="error">{{error}}</div>
+</div>
